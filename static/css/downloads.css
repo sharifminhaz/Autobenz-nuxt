@@ -1,0 +1,25 @@
+.global-footer-apps-and-social .global-footer-mobile-apps {
+    margin-top: 16px;
+}
+
+.global-footer a {
+    color: #212121;
+}
+
+.sds-link,
+a {
+    color: #b0c;
+    text-decoration: none;
+}
+
+.global-footer-apps-and-social .global-footer-mobile-buttons {
+    margin: 16px 0 24px;
+}
+
+.app-store-button {
+    width: 120px;
+}
+
+.google-play-button {
+    width: 130px;
+}
