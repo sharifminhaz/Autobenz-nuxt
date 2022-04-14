@@ -75,7 +75,7 @@
                         </form>
 
                         <div class="clearfix"></div>
-                        <p>Don't have an account? <a href="signup.html" class="thembo"> Register here</a></p>
+                        <p>Don't have an account? <nuxt-link to="/register">Register here</nuxt-link></p>
                     </div>
                 </div>
             </div>
