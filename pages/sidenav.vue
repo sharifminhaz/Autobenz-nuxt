@@ -1,20 +1,15 @@
 <template>
- <div>
-      <TopHeader />
-      <Header />
-      <SideNav />
-   </div>
-
+    <div>
+        <SideNav />
+    </div>
 </template>
 
 <script>
-import TopHeader from "~/components/Home/TopHeader";
-import Header from "~/components/Home/Header";
+
 import SideNav from "~/components/Page/SideNav";
+
 export default {
     components: {
-        TopHeader,
-        Header,
         SideNav,
     },
     head() {
@@ -24,3 +19,6 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+</style>
