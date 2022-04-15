@@ -1,5 +1,5 @@
 <template>
-
+ <client-only>
 <body>
     <!-- preloader-start -->
     <!-- <div class="preloader">
@@ -87,6 +87,7 @@
 
 
 </body>
+ </client-only>
 </template>
 
 <script>
