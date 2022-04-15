@@ -2,7 +2,7 @@
 
 <body>
     <!-- preloader-start -->
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="meter">
             <div class="line"></div>
             <div class="line"></div>
@@ -20,7 +20,7 @@
             </div>
             <span class="loadtext">Loading</span>
         </div>
-    </div>
+    </div> -->
     <!-- preloader-end -->
 
     <!-- Login 1 start -->
