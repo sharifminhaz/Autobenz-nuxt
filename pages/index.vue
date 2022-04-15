@@ -1,5 +1,6 @@
 <template>
  <div>
+     <TopHeader />
     <Header />
    </div>
 
@@ -7,9 +8,10 @@
 
 <script>
 import Header from "~/components/Home/Header";
+import TopHeader from "~/components/Home/TopHeader";
 export default {
     components: {
-
+        TopHeader,
         Header,
     },
     head() {

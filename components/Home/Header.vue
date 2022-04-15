@@ -1,371 +1,89 @@
 <template>
-    <header class="header-one">
-        <div class="topbar-area fix hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9 col-sm-9">
-                        <div class="topbar-left">
-                            <ul>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa fa-envelope"></i>
-                                        name@domain.com</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa fa-phone-square"></i> (+1)
-                                        123-456-789</a
-                                    >
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa fa-clock-o"></i> Mon -
-                                        Fri: 10 AM - 6 PM</a
-                                    >
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3">
-                        <div class="top-social">
-                            <ul>
-                                <li>
-                                    <a href="#"><i class="fa fa-skype"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa fa-twitter"></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa fa-facebook"></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-google"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+     <!-- Main header start -->
+    <header class="main-header sticky-header header-with-top">
+        <div class="container contained">
+            <nav class="navbar navbar-expand-lg navbar-light">
 
-        <div id="sticker" class="header-area hidden-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="logo">
-                            <nuxt-link
-                                class="navbar-brand page-scroll black-logo"
-                                to="/"
-                            >
-                                <img src="/img/logo/logo.png" alt="" />
-                            </nuxt-link>
-                        </div>
-                    </div>
-                    <div class="col-md-9 col-sm-9">
-                        <div class="header-right-link">
-                            <!-- search option start -->
-                            <div class="search-inner">
-                                <form action="#">
-                                    <div class="search-option">
-                                        <input
-                                            type="text"
-                                            placeholder="Search..."
-                                        />
-                                        <button class="button" type="submit">
-                                            <i class="fa fa-search"></i>
-                                        </button>
-                                    </div>
-                                    <a class="main-search" href="#"
-                                        ><i class="fa fa-search"></i
-                                    ></a>
-                                </form>
-                            </div>
-                            <nuxt-link class="s-menu" to="/login"
-                                >It Consultant</nuxt-link
-                            >
-                        </div>
+                <a class="navbar-brand company-logo" href="index.html">
+                    <img src="img/logos/ab.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" id="drawer" style="margin: -16px;margin-right: -8px;">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <button class="navbar-toggler" onclick="window.location.href='profile.html'" type="button" id="user"
+                    style="margin-left: 12px;">
+                    <span class="fa fa-user"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100 justify-content-end" id="navbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Home
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="profile.html" id="navbarDropdownMenuLink3"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Profile
+                            </a>
 
-                        <nav class="navbar navbar-default">
-                            <div
-                                class="collapse navbar-collapse"
-                                id="navbar-example"
-                            >
-                                <div class="main-menu">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li>
-                                            <a class="pages" href="/">Home</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <nuxt-link to="/"
-                                                        >Home 01</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/index-2"
-                                                        >Home 02</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/index-3"
-                                                        >Home 03</nuxt-link
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a class="pages" href="#">Page</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <nuxt-link to="/about"
-                                                        >About</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/team"
-                                                        >Team</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/review"
-                                                        >Reviews</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/faq"
-                                                        >FAQ</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/login"
-                                                        >Login</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/signup"
-                                                        >Signup</nuxt-link
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a class="pages" href="#"
-                                                >Services</a
-                                            >
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <nuxt-link to="/services"
-                                                        >Services</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link to="/services-2"
-                                                        >Services 2</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link
-                                                        to="/service-details"
-                                                        >Service
-                                                        Details</nuxt-link
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a class="pages" href="#"
-                                                >Project</a
-                                            >
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <nuxt-link to="/project"
-                                                        >Portfolio</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link
-                                                        to="/project-details"
-                                                        >Project
-                                                        details</nuxt-link
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a class="pages" href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <nuxt-link to="/blog"
-                                                        >Blog grid</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link
-                                                        to="/blog-sidebar"
-                                                        >Blog List</nuxt-link
-                                                    >
-                                                </li>
-                                                <li>
-                                                    <nuxt-link
-                                                        to="/blog-details"
-                                                        >Blog Details</nuxt-link
-                                                    >
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <nuxt-link to="/contact"
-                                                >contacts</nuxt-link
-                                            >
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="pricing-tables.html" id="navbarDropdownMenuLink4"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pricing
+                            </a>
 
-        <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="mobile-menu">
-                            <div class="logo">
-                                <nuxt-link to="/"
-                                    ><img src="/img/logo/logo.png" alt=""
-                                /></nuxt-link>
-                            </div>
-                            <nav id="dropdown">
-                                <ul>
-                                    <li>
-                                        <a class="pages" href="/">Home</a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <nuxt-link to="/"
-                                                    >Home 01</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/index-2"
-                                                    >Home 02</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/index-3"
-                                                    >Home 03</nuxt-link
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="pages" href="#">Page</a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <nuxt-link to="/about"
-                                                    >About</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/team"
-                                                    >Team</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/review"
-                                                    >Reviews</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/faq"
-                                                    >FAQ</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/login"
-                                                    >Login</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/signup"
-                                                    >Signup</nuxt-link
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="pages" href="#">Services</a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <nuxt-link to="/services"
-                                                    >Services</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/services-2"
-                                                    >Services 2</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/service-details"
-                                                    >Service Details</nuxt-link
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="pages" href="#">Project</a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <nuxt-link to="/project"
-                                                    >Portfolio</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/project-details"
-                                                    >Project details</nuxt-link
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="pages" href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li>
-                                                <nuxt-link to="/blog"
-                                                    >Blog grid</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/blog-sidebar"
-                                                    >Blog List</nuxt-link
-                                                >
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/blog-details"
-                                                    >Blog Details</nuxt-link
-                                                >
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <nuxt-link to="/contact"
-                                            >contacts</nuxt-link
-                                        >
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="login.html" id="dropdown01" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Add vehicle</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- <li class="nav-item dropdown">
+                                    <a href="login.html" class="nav-link h-icon">
+                                        <i class="flaticon-logout"></i>
+                                    </a>
+                                </li> -->
+
+                        <!-- <li class="nav-item dropdown"> -->
+                        <!-- <div class="full-page-search-box"> -->
+                        <form action="index.html#" class="search-boxs">
+                            <input class="hsearch" type="search" value="" placeholder="type keyword(s) here">
+                            <button type="submit" class="search-btn btn-sm button-theme">Search</button>
+                        </form>
+                        <!-- </div> -->
+                        <!-- </li> -->
+                        <li class="lan-icons">
+                            <button class="dropdown-toggle" type="button" data-toggle="dropdown"
+                                style="background: transparent;border: none;width: 44px;">
+                                <img src="https://foxnfox.ch/includes/img/flags/chflag-400-200.png"
+                                    class="img-responsive" alt="switzerland" data-country="ch"
+                                    style="width: 44px;margin-bottom: 4px;">
+                            </button>
+                            <select id="languages"
+                                style="color: #c1c5cc!important; font-size: 16px!important; background-color: #020d25;text-transform: uppercase; font-weight: 400;line-height: 50px;
+                                                     max-height: 25px;box-shadow: 0px 0px 0px 1px rgb(2 13 38);margin-left: 12px;margin-bottom: 2px;width: 44px;">
+                                <option value="FR" selected="">FR</option>
+                                <option value="DE">DE</option>
+                                <option value="IT">IT</option>
+
+                            </select>
+                        </li>
+
+
+                    </ul>
                 </div>
-            </div>
+            </nav>
         </div>
     </header>
+    <!-- Main header end -->
 </template>
 
 <script>
