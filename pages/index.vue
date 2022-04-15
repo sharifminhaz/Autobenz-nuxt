@@ -1,12 +1,12 @@
 <template>
- <div>
-      <TopHeader />
-      <Header />
-      <SideNav />
-       <SubBanner />
-        <FeaturedCar />
-   </div>
-
+  <div>
+    <TopHeader />
+    <Header />
+    <SideNav />
+    <SubBanner />
+    <FeaturedCar />
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -17,18 +17,18 @@ import SubBanner from "~/components/Home/SubBanner";
 import FeaturedCar from "~/components/Home/FeaturedCar";
 import Footer from "~/components/Home/Footer";
 export default {
-    components: {
-        TopHeader,
-        Header,
-        SideNav,
-        SubBanner,
-        FeaturedCar,
-        Footer,
-    },
-    head() {
-        return {
-            title: "Autobenz",
-        };
-    },
+  components: {
+    TopHeader,
+    Header,
+    SideNav,
+    SubBanner,
+    FeaturedCar,
+    Footer,
+  },
+  head() {
+    return {
+      title: "Autobenz",
+    };
+  },
 };
 </script>
