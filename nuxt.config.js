@@ -1,5 +1,7 @@
+const webpack = require('webpack');
 export default {
 	mode: 'universal',
+
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'autobenz-nuxt',
@@ -14,7 +16,6 @@ export default {
 		],
 		link: [
 			//External CSS libraries
-
 			{ rel: 'stylesheet', href: 'css/bootstrap.min.css' },
 			{ rel: 'stylesheet', href: 'css/animate.min.css' },
 			{ rel: 'stylesheet', href: 'css/bootstrap-submenu.css' },
@@ -37,7 +38,6 @@ export default {
 
 			{ rel: 'stylesheet', href: 'css/preloader.css' },
 			{ rel: 'stylesheet', href: 'css/downloads.css' },
-
 			//Custom stylesheet
 			{ rel: 'stylesheet', href: 'css/sidebar.css' },
 			{ rel: 'stylesheet', href: 'css/style.css' },
@@ -60,10 +60,12 @@ export default {
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
-	css: [],
+
+	css: [ '~/node_modules/bootstrap/dist/css/bootstrap.css' ],
+
 	script: [
-		{ src: 'js/aos.js' },
 		{ src: 'js/app.js' },
+		{ src: 'js/aos.js' },
 		{ src: 'js/bootstrap-select.min.js' },
 		{ src: 'js/bootstrap-submenu.js' },
 		{ src: 'js/dropzone.js' },
@@ -97,21 +99,20 @@ export default {
 		{ src: 'js/sidebar.js' },
 		{ src: 'js/slick.min.js' },
 		{ src: 'js/wow.min.js' }
-
 		/*
-    { src: "js/owl.carousel.min.js" },
-    { src: "js/jquery.counterup.min.js" },
-    { src: "js/waypoints.js" },
-    { src: "js/magnific.min.js" },
-    { src: "js/wow.min.js" },
-    { src: "js/venobox.min.js" },
-    { src: "js/jquery.meanmenu.js" },
-    { src: "js/form-validator.min.js" },
-    { src: "js/plugins.js" },
-*/
+		{ src: 'js/owl.carousel.min.js' },
+		{ src: 'js/jquery.counterup.min.js' },
+		{ src: 'js/waypoints.js' },
+		{ src: 'js/magnific.min.js' },
+		{ src: 'js/wow.min.js' },
+		{ src: 'js/venobox.min.js' },
+		{ src: 'js/jquery.meanmenu.js' },
+		{ src: 'js/form-validator.min.js' },
+		{ src: 'js/plugins.js' }
+    */
 	],
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-	plugins: [],
+	plugins: [ '~plugins/bootstrap.js' ],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
 	components: true,
@@ -124,6 +125,25 @@ export default {
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
-		extractCSS: true
+		extractCSS: true,
+		vendor: [ 'jquery', 'bootstrap' ],
+		plugins: [
+			new webpack.ProvidePlugin({
+				$: 'jquery'
+			})
+		],
+		/*
+    ** Run ESLint on save
+    */
+		extend(config, { isDev, isClient }) {
+			if (isDev && isClient) {
+				config.module.rules.push({
+					enforce: 'pre',
+					test: /\.(js|vue)$/,
+					loader: 'eslint-loader',
+					exclude: /(node_modules)/
+				});
+			}
+		}
 	}
 };
