@@ -77,7 +77,7 @@
 
             <p>
               Don't have an account?
-              <nuxt-link to="/reset" class="thembo">Register here</nuxt-link>
+              <nuxt-link to="/Signup" class="thembo">Register here</nuxt-link>
             </p>
           </div>
         </div>
