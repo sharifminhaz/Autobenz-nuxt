@@ -1,0 +1,22 @@
+{
+  "name": "AUTOBENZ",
+  "version": "2.0.0",
+  "description": "AUTOBENZ - Vue Nuxt Auto",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "vue": "^2.0.8",
+    "vue-server-renderer": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8"
+  }
+}
