@@ -445,6 +445,11 @@ div#preloader {
   padding: 35px 18px;
   text-transform: capitalize;
   position: relative;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: "Barlow",
+    sans-serif;
+
 }
 
 .main-menu ul.navbar-nav li a:hover {
@@ -509,7 +514,7 @@ div#preloader {
 
 .main-menu ul.nav>li>a.pages::after {
   color: #abb2c0;
-  content: "\e64b";
+  /* content: "\e64b"; */
   font-family: themify;
   font-size: 12px;
   position: absolute;
@@ -655,7 +660,7 @@ div#preloader {
   width: 100%;
   z-index: 999999;
   box-shadow: 0px 0px 3px #ddd, -2px -2px 3px #ddd;
-  background: #fff;
+  background: #020d26;
 }
 
 .header-area.stick .logo a {
@@ -666,7 +671,7 @@ div#preloader {
 
 .header-area.stick .main-menu ul.navbar-nav li a {
   padding: 30px 18px;
-  color: #151b2c;
+  color: #abb2c0;
 }
 
 .header-area.stick .main-menu ul.nav li ul.sub-menu li a {
@@ -3836,5 +3841,12 @@ span.email-notes {
 }
 
 /*--------------------------------*/
-/* .End CSS
+/* .End CSS 1
+/*--------------------------------*/
+
+
+
+
+/*--------------------------------*/
+/* .Start Custom CSS
 /*--------------------------------*/

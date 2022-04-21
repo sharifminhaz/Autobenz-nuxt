@@ -655,7 +655,7 @@ div#preloader {
   width: 100%;
   z-index: 999999;
   box-shadow: 0px 0px 3px #ddd, -2px -2px 3px #ddd;
-  background: #fff;
+  background: #020d26;
 }
 
 .header-area.stick .logo a {

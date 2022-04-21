@@ -1,19 +1,11 @@
 <template>
-    <div>
-        <Header />
-        <Slider />
-        <Welcome />
-        <About />
-        <Service />
-        <Counter />
-        <Team />
-        <Project />
-        <Quote />
-        <Tab />
-        <Blog />
-        <Reviews />
-        <Footer />
-    </div>
+  <div>
+    <Header />
+    <Slider />
+    <Welcome />
+
+    <Footer />
+  </div>
 </template>
 
 <script>
@@ -32,26 +24,26 @@ import Reviews from "~/components/Home/Reviews";
 import Footer from "~/components/Home/Footer";
 
 export default {
-    components: {
-        Footer,
-        Reviews,
-        Blog,
-        Tab,
-        Quote,
-        Project,
-        Team,
-        Counter,
-        Service,
-        About,
-        Welcome,
-        Slider,
-        Header,
-    },
-    head() {
-        return {
-            title: "AUTOBENZ | Vue Nuxt It Solutions Services Company",
-        };
-    },
+  components: {
+    Footer,
+    Reviews,
+    Blog,
+    Tab,
+    Quote,
+    Project,
+    Team,
+    Counter,
+    Service,
+    About,
+    Welcome,
+    Slider,
+    Header,
+  },
+  head() {
+    return {
+      title: "AUTOBENZ | Vue Nuxt It Solutions Services Company",
+    };
+  },
 };
 </script>
 
