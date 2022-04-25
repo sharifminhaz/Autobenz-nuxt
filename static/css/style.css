@@ -1,14 +1,5 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: CODIUX - It Solutions & Services HTML Template
-    Template URI: http://rockstheme.com
-    Description: This is html5 template
-    Author: Rocks_theme
-    Author URI: http://rockstheme.com
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
 /*-----------------------------------------------------------------------------------
      CSS INDEX
     ===================
@@ -2436,7 +2427,7 @@ div#preloader {
 }
 
 .page-area {
-  background: url(/img/background/bread.jpg);
+  background: url(/img/background/img-7.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

@@ -12,7 +12,7 @@ export default {
 		],
 		link: [
 			{ rel: 'shortcut icon', type: 'image/x-icon', href: 'img/logo/favicon.ico' },
-			{ rel: 'stylesheet', href: 'css/bootstrap.min.css' },
+			// { rel: 'stylesheet', href: 'css/bootstrap.min.css' },
 			{ rel: 'stylesheet', href: 'css/owl.carousel.css' },
 			{ rel: 'stylesheet', href: 'css/owl.transitions.css' },
 			{ rel: 'stylesheet', href: 'css/animate.css' },
@@ -27,9 +27,9 @@ export default {
 
 			/* autobenz css */
 			{ rel: 'stylesheet', href: 'css/auto/style.css' },
-			{ rel: 'stylesheet', href: 'css/auto/skins/midnight-blue.css' }
-			// { rel: 'stylesheet', href: 'css/auto/bootstrap.min.css' }
-			// { rel: 'stylesheet', href: 'css/auto/responsive.css' }
+			{ rel: 'stylesheet', href: 'css/auto/skins/midnight-blue.css' },
+			{ rel: 'stylesheet', href: 'css/auto/bootstrap.min.css' },
+			{ rel: 'stylesheet', href: 'fonts/font-awesome/css/font-awesome.min.css' }
 			// { rel: 'stylesheet', href: 'auto/css/auto-style.css' }
 		],
 		script: [
