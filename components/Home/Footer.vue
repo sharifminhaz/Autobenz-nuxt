@@ -1,134 +1,123 @@
 <template>
-    <footer class="footer1">
-        <div class="footer-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-12">
-                        <div class="footer-content logo-footer">
-                            <div class="footer-head">
-                                <div class="footer-logo">
-                                    <a href="#"
-                                        ><img src="/img/logo/logo.png" alt=""
-                                    /></a>
-                                </div>
-                                <p>
-                                    Are you looking for professional advice for
-                                    your new business. Are you looking for
-                                    professional advice for your new business.
-                                    Are you looking for professional advice for
-                                    your new business.
-                                </p>
-                                <div class="subs-feilds">
-                                    <div class="suscribe-input">
-                                        <input
-                                            type="email"
-                                            class="email form-control width-80"
-                                            id="sus_email"
-                                            placeholder="Type Email"
-                                        />
-                                        <button
-                                            type="submit"
-                                            id="sus_submit"
-                                            class="add-btn"
-                                        >
-                                            Subscribe
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-3 col-xs-12">
-                        <div class="footer-content">
-                            <div class="footer-head">
-                                <h4>Services Link</h4>
-                                <ul class="footer-list">
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Agency </a></li>
-                                    <li><a href="#">Social media</a></li>
-                                    <li><a href="#">Branding</a></li>
-                                    <li><a href="#">Design </a></li>
-                                    <li><a href="#">Data science </a></li>
-                                </ul>
-                                <ul class="footer-list hidden-sm">
-                                    <li><a href="#">Search engine</a></li>
-                                    <li><a href="#">Online support</a></li>
-                                    <li><a href="#">Development</a></li>
-                                    <li><a href="#">Pay per click</a></li>
-                                    <li><a href="#">Event activation</a></li>
-                                    <li><a href="#">Automotion</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-4 col-xs-12">
-                        <div class="footer-content last-content">
-                            <div class="footer-head">
-                                <h4>Information</h4>
-                                <div class="footer-contacts">
-                                    <p>
-                                        <span>Location :</span> Menlo Park,
-                                        California, United States
-                                    </p>
-                                    <p><span>Tel :</span> (+1)123-456-789</p>
-                                    <p><span>Email :</span> name@domain.com</p>
-                                </div>
-                                <div class="footer-icons">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-google"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="fa fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="row">
+        <div class="col-xl-3 col-lg-2 col-md-3 col-sm-2">
+          <div class="footer-item clearfix">
+            <h4>Contact Info</h4>
+            <ul class="contact-info">
+              <li>
+                <i class="flaticon-pin"></i>20 Rue Charles-Strum<br />
+                1206 GENÈVE.
+              </li>
+              <li>
+                <i class="flaticon-mail"></i
+                ><a href="mailto:info@autobenz.ch">info@autobenz.com</a>
+              </li>
+              <!-- <li>
+                                <i class="flaticon-phone"></i><a href="tel:+41 58 2551 177">+41 58 2551 177</a>
+                            </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3">
+          <div class="recent-posts footer-item">
+            <h4>PAGES</h4>
+            <ul class="links">
+              <li>
+                <a href="legal-notice.html">Legal Notice</a>
+              </li>
+              <li>
+                <a href="terms-of-use.html">Terms of use</a>
+              </li>
+              <li>
+                <a href="pricing-tables.html">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="footer-item">
+            <h4>Categories</h4>
+            <ul class="links">
+              <li>
+                <a href="#">Cars</a>
+              </li>
+              <li>
+                <a href="#">Utility</a>
+              </li>
+              <li>
+                <a href="#">Moto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+          <div class="recent-posts footer-item">
+            <h4>MY ACCOUNT</h4>
+            <ul class="links">
+              <li>
+                <a href="profile.html">My Account</a>
+              </li>
+              <li>
+                <a href="profile.html">Order History</a>
+              </li>
+              <li>
+                <a href="profile.html">Wish List</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div class="footer-area-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="copyright">
-                            <p>
-                                Copyright © 2021
-                                <a href="#">Klodovsky</a> All Rights Reserved.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+          <div class="footer-item clearfix">
+            <h4>Subscribe</h4>
+            <div class="Subscribe-box">
+              <p>
+                Subscribe now and get the latest on sales, new releases and
+                more…
+              </p>
+              <form class="form-inline d-flex" action="#">
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  placeholder="Email Address ..."
+                />
+                <button class="btn button-theme" type="submit">
+                  <i class="fa fa-paper-plane"></i>
+                </button>
+              </form>
             </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+    <div class="copy sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <p>
+              © 2020 <a href="#">AUTOBENZ.</a> Trademarks and brands are the
+              property of their respective owners.
+            </p>
+          </div>
+          <div class="col-lg-4 sub-footer-cards">
+            <a href="pricing-tables.html"
+              ><img
+                src="https://foxnfox.ch/includes/img/payment.png"
+                alt="pricing"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>
 export default {
-    name: "Footer",
+  name: "Footer",
 };
 </script>
 
