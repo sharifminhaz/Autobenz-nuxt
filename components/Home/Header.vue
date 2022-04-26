@@ -148,8 +148,8 @@ export default {
       }
     });
 
-    var mean_menu = $("nav#dropdown");
-    mean_menu.meanmenu();
+    // var mean_menu = $("nav#dropdown");
+    // mean_menu.meanmenu();
 
     // Page scroller initialization.
     $.scrollUp({
