@@ -1,146 +1,128 @@
 <template>
-  <header class="header-one">
-    <div class="topbar-area fix hidden-xs">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9 col-sm-9">
-            <div class="topbar-left">
-              <ul>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-envelope"></i> info@autobenz.ch</a
-                  >
-                </li>
-                <!-- <li>
-                  <a href="#"
-                    ><i class="fa fa-phone-square"></i> (+1) 123-456-789</a
-                  >
-                </li> -->
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-clock-o"></i> Mon - Fri: 9 AM - 5 PM</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- <div class="col-md-3 col-sm-3">
-            <div class="top-social">
-              <ul>
-                <li>
-                  <a href="#"><i class="fa fa-skype"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-google"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div> -->
+  <!-- Main header start -->
+  <header class="main-header sticky-header header-with-top">
+    <div class="container contained">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand company-logo" href="index.html">
+          <img src="img/logos/ab.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          id="drawer"
+          style="margin: -16px; margin-right: -8px"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <button
+          class="navbar-toggler"
+          onclick="window.location.href='profile.html'"
+          type="button"
+          id="user"
+          style="margin-left: 12px"
+        >
+          <span class="fa fa-user"></span>
+        </button>
+        <div
+          class="navbar-collapse collapse w-100 justify-content-end"
+          id="navbar"
+        >
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="index.html"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Home
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="pricing-tables.html"
+                id="navbarDropdownMenuLink4"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Pricing
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="login.html"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Add vehicle</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <form action="index.html#" class="search-boxs">
+              <input
+                class="hsearch"
+                type="search"
+                value=""
+                placeholder="type keyword(s) here"
+              />
+              <button type="submit" class="search-btn btn-sm button-theme">
+                Search
+              </button>
+            </form>
+            <!-- </div> -->
+            <!-- </li> -->
+            <li class="lan-icons">
+              <button
+                class="dropdown-toggle"
+                type="button"
+                data-toggle="dropdown"
+                style="background: transparent; border: none; width: 44px"
+              >
+                <img
+                  src="https://foxnfox.ch/includes/img/flags/chflag-400-200.png"
+                  class="img-responsive"
+                  alt="switzerland"
+                  data-country="ch"
+                  style="width: 44px; margin-bottom: 4px"
+                />
+              </button>
+              <select
+                id="languages"
+                style="
+                  color: #c1c5cc !important;
+                  font-size: 16px !important;
+                  background-color: #020d25;
+                  text-transform: uppercase;
+                  font-weight: 400;
+                  line-height: 50px;
+                  max-height: 25px;
+                  box-shadow: 0px 0px 0px 1px rgb(2 13 38);
+                  margin-left: 12px;
+                  margin-bottom: 2px;
+                  width: 44px;
+                "
+              >
+                <option value="FR" selected="">FR</option>
+                <option value="DE">DE</option>
+                <option value="IT">IT</option>
+              </select>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
-
-    <div id="sticker" class="header-area hidden-xs">
-      <div class="container">
-        <div class="navbar row-mrg">
-          <div class="col-md-3 col-sm-3">
-            <div class="logo">
-              <nuxt-link class="navbar-brand page-scroll black-logo" to="/">
-                <img src="/img/logo/logo.png" alt="" />
-              </nuxt-link>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6">
-            <nav class="navbar navbar-default">
-              <div class="collapse navbar-collapse" id="navbar-example">
-                <div class="main-menu">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li>
-                      <a class="pages" href="/">HOME</a>
-                    </li>
-                    <li>
-                      <a class="pages" href="#">PRICING</a>
-                    </li>
-                    <li>
-                      <a class="pages" href="#">ADD VEHICLUE</a>
-                    </li>
-                    <li>
-                      <nuxt-link to="/contact">CONTACT</nuxt-link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="mobile-menu">
-              <div class="logo">
-                <nuxt-link to="/"
-                  ><img src="/img/logo/logo.png" alt=""
-                /></nuxt-link>
-              </div>
-              <nav id="dropdown">
-                <ul>
-                  <li>
-                    <nuxt-link to="/">Home</nuxt-link>
-                  </li>
-                  <li>
-                    <a class="pages" href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a class="pages" href="#">Add Vehicle</a>
-                  </li>
-                  <li>
-                    <a class="pages" href="#">Project</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <nuxt-link to="/project">Portfolio</nuxt-link>
-                      </li>
-                      <li>
-                        <nuxt-link to="/project-details"
-                          >Project details</nuxt-link
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a class="pages" href="#">Blog</a>
-                    <ul class="sub-menu">
-                      <li>
-                        <nuxt-link to="/blog">Blog grid</nuxt-link>
-                      </li>
-                      <li>
-                        <nuxt-link to="/blog-sidebar">Blog List</nuxt-link>
-                      </li>
-                      <li>
-                        <nuxt-link to="/blog-details">Blog Details</nuxt-link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <nuxt-link to="/contact">contacts</nuxt-link>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
+      </nav>
     </div>
   </header>
+  <!-- Main header end -->
 </template>
 
 <script>
@@ -168,6 +150,24 @@ export default {
 
     var mean_menu = $("nav#dropdown");
     mean_menu.meanmenu();
+
+    // Page scroller initialization.
+    $.scrollUp({
+      scrollName: "page_scroller",
+      scrollDistance: 300,
+      scrollFrom: "top",
+      scrollSpeed: 500,
+      easingType: "linear",
+      animation: "fade",
+      animationSpeed: 200,
+      scrollTrigger: false,
+      scrollTarget: false,
+      scrollText: '<i class="fa fa-chevron-up"></i>',
+      scrollTitle: false,
+      scrollImg: false,
+      activeOverlay: false,
+      zIndex: 2147483647,
+    });
   },
 };
 </script>
