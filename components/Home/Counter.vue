@@ -6,21 +6,21 @@
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="fun_text wow fadeInUp" data-wow-delay="0.1s">
               <span class="counter-icon"><i class="flaticon-car"></i></span>
-              <span class="counter">27703</span>
+              <span class="counter">{{ cars.toLocaleString() }}</span>
               <h4>CARS FOR SALE</h4>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="fun_text wow fadeInUp" data-wow-delay="0.2s">
               <span class="counter-icon"><i class="flaticon-user"></i></span>
-              <span class="counter">14147</span>
+              <span class="counter">{{ visitors.toLocaleString() }}</span>
               <h4>VISITORS PER DAY</h4>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="fun_text wow fadeInUp" data-wow-delay="0.3s">
               <span class="counter-icon"><i class="flaticon-comment"></i></span>
-              <span class="counter">3500</span>
+              <span class="counter">{{ reviews.toLocaleString() }}</span>
               <h4>DEALER REVIEWS</h4>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <span class="counter-icon"
                 ><i class="flaticon-agreement"></i
               ></span>
-              <span class="counter">1250</span>
+              <span class="counter">{{ dealers.toLocaleString() }}</span>
               <h4>VERIFIED DEALERS</h4>
             </div>
           </div>
@@ -42,6 +42,14 @@
 <script>
 export default {
   name: "Counter",
+  data() {
+    return {
+      cars: 27703,
+      visitors: 14147,
+      reviews: 3500,
+      dealers: 1250,
+    };
+  },
   mounted() {
     jQuery(document).ready(function ($) {
       $("span.counterup").counterUp({
@@ -49,6 +57,11 @@ export default {
         time: 2000, // the speed time in ms
       });
     });
+  },
+  methods: {
+    numberWithCommas(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    },
   },
 };
 </script>
