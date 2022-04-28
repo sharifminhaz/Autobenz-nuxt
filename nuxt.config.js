@@ -77,16 +77,6 @@ export default {
 			{ src: 'js/ie-emulation-modes-warning.js' },
 			{ src: 'js/ie8-responsive-file-warning.js' },
 			{ src: 'js/ie10-viewport-bug-workaround.js' }
-
-			// {
-			// 	src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',
-			// 	type: 'text/javascript'
-			// },
-
-			// { src: 'js/respond.min.js' },
-
-			// { src: 'js/wow.min.js' }
-			// { src: ' https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js' }
 		]
 	},
 	/*

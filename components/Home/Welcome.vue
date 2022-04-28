@@ -16,26 +16,8 @@
                       <option>Newest First</option>
                       <option>Oldest First</option>
                       <option>Price High to Low</option>
-                      <option>Price: Low to High</option></select
-                    ><button
-                      type="button"
-                      tabindex="-1"
-                      class="btn dropdown-toggle btn-light"
-                      data-bs-toggle="dropdown"
-                      role="combobox"
-                      aria-owns="bs-select-1"
-                      aria-haspopup="listbox"
-                      aria-expanded="false"
-                      title="Newest First"
-                    >
-                      <div class="filter-option">
-                        <div class="filter-option-inner">
-                          <div class="filter-option-inner-inner">
-                            Newest First
-                          </div>
-                        </div>
-                      </div>
-                    </button>
+                      <option>Price: Low to High</option>
+                    </select>
                     <div class="dropdown-menu">
                       <div
                         class="inner show"
@@ -1218,26 +1200,9 @@
                       <option>BMW</option>
                       <option>Honda</option>
                       <option>Lamborghini</option>
-                      <option>Sports Car</option></select
-                    ><button
-                      type="button"
-                      tabindex="-1"
-                      class="btn dropdown-toggle btn-light"
-                      data-bs-toggle="dropdown"
-                      role="combobox"
-                      aria-owns="bs-select-2"
-                      aria-haspopup="listbox"
-                      aria-expanded="false"
-                      title="Select Make"
-                    >
-                      <div class="filter-option">
-                        <div class="filter-option-inner">
-                          <div class="filter-option-inner-inner">
-                            Select Make
-                          </div>
-                        </div>
-                      </div>
-                    </button>
+                      <option>Sports Car</option>
+                    </select>
+
                     <div class="dropdown-menu">
                       <div
                         class="inner show"
@@ -1263,72 +1228,8 @@
                       <option>Audi</option>
                       <option>BMW</option>
                       <option>Honda</option>
-                      <option>Nissan</option></select
-                    ><button
-                      type="button"
-                      tabindex="-1"
-                      class="btn dropdown-toggle btn-light"
-                      data-bs-toggle="dropdown"
-                      role="combobox"
-                      aria-owns="bs-select-3"
-                      aria-haspopup="listbox"
-                      aria-expanded="false"
-                      title="Select Model"
-                    >
-                      <div class="filter-option">
-                        <div class="filter-option-inner">
-                          <div class="filter-option-inner-inner">
-                            Select Model
-                          </div>
-                        </div>
-                      </div>
-                    </button>
-                    <div class="dropdown-menu">
-                      <div
-                        class="inner show"
-                        role="listbox"
-                        id="bs-select-3"
-                        tabindex="-1"
-                      >
-                        <ul
-                          class="dropdown-menu inner show"
-                          role="presentation"
-                        ></ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="dropdown bootstrap-select search-fields">
-                    <select
-                      class="selectpicker search-fields"
-                      name="select-location"
-                    >
-                      <option>Select Fuel type</option>
-                      <option>Diesel</option>
-                      <option>Petrol</option>
-                      <option>Electric</option>
-                      <option>Gas</option>
-                      <option>Hybrid</option></select
-                    ><button
-                      type="button"
-                      tabindex="-1"
-                      class="btn dropdown-toggle btn-light"
-                      data-bs-toggle="dropdown"
-                      role="combobox"
-                      aria-owns="bs-select-4"
-                      aria-haspopup="listbox"
-                      aria-expanded="false"
-                      title="Select Fuel type"
-                    >
-                      <div class="filter-option">
-                        <div class="filter-option-inner">
-                          <div class="filter-option-inner-inner">
-                            Select Fuel type
-                          </div>
-                        </div>
-                      </div>
-                    </button>
+                      <option>Nissan</option>
+                    </select>
                     <div class="dropdown-menu">
                       <div
                         class="inner show"
@@ -1353,26 +1254,8 @@
                       <option>Select Transmission</option>
                       <option>Automatic</option>
                       <option>Manual</option>
-                      <option>Triptronic</option></select
-                    ><button
-                      type="button"
-                      tabindex="-1"
-                      class="btn dropdown-toggle btn-light"
-                      data-bs-toggle="dropdown"
-                      role="combobox"
-                      aria-owns="bs-select-5"
-                      aria-haspopup="listbox"
-                      aria-expanded="false"
-                      title="Select Transmission"
-                    >
-                      <div class="filter-option">
-                        <div class="filter-option-inner">
-                          <div class="filter-option-inner-inner">
-                            Select Transmission
-                          </div>
-                        </div>
-                      </div>
-                    </button>
+                      <option>Triptronic</option>
+                    </select>
                     <div class="dropdown-menu">
                       <div
                         class="inner show"
@@ -1398,26 +1281,8 @@
                       <option>2018</option>
                       <option>2019</option>
                       <option>2020</option>
-                      <option>2021</option></select
-                    ><button
-                      type="button"
-                      tabindex="-1"
-                      class="btn dropdown-toggle btn-light"
-                      data-bs-toggle="dropdown"
-                      role="combobox"
-                      aria-owns="bs-select-6"
-                      aria-haspopup="listbox"
-                      aria-expanded="false"
-                      title="Select Year"
-                    >
-                      <div class="filter-option">
-                        <div class="filter-option-inner">
-                          <div class="filter-option-inner-inner">
-                            Select Year
-                          </div>
-                        </div>
-                      </div>
-                    </button>
+                      <option>2021</option>
+                    </select>
                     <div class="dropdown-menu">
                       <div
                         class="inner show"
