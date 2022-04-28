@@ -169,7 +169,7 @@ export default {
   align-items: center;
   justify-content: flex-start;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  /* padding-bottom: 0.5rem; */
 }
 .hsearch {
   background: #fff;

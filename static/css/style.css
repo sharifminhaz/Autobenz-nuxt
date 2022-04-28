@@ -749,7 +749,7 @@ input[type=checkbox]:checked+label:before {
 }
 
 .button-theme {
-  color: #abb2c0 !important;
+  color: #fff !important;
   outline: none;
 }
 
@@ -6933,7 +6933,7 @@ footer:before {
   top: 50%;
   right: 0;
   left: 0;
-  z-index: 999999;
+  z-index: 99;
 }
 
 .mb-7 {
@@ -6946,6 +6946,8 @@ footer:before {
   color: #fff;
   font-size: 30px;
   text-transform: uppercase;
+  margin-top: 60px;
+  text-align: right;
 }
 
 .sub-banner .breadcrumbs li {
