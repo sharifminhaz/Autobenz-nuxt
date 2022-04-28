@@ -57,6 +57,27 @@ export default {
       doSticky();
       placedDashboard();
     });
+    /*----------------------------
+ Counter js active
+------------------------------ */
+
+    var count = $(".counter");
+    count.counterUp({
+      delay: 40,
+      time: 3000,
+    });
+
+    /*---------------------
+ wow .js
+--------------------- */
+    function wowAnimation() {
+      new WOW({
+        offset: 100,
+        mobile: true,
+      }).init();
+    }
+    wowAnimation();
+
     function adjustHeader() {
       var windowWidth = $(window).width();
       if (windowWidth > 0) {

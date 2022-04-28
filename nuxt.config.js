@@ -40,6 +40,8 @@ export default {
 			{ rel: 'stylesheet', href: 'css/skins/midnight-blue.css' },
 			{ rel: 'stylesheet', href: 'css/ie10-viewport-bug-workaround.css' },
 			{ rel: 'stylesheet', href: 'css/initial.css' },
+			{ rel: 'stylesheet', href: 'css/original/themify-icons.css' },
+			{ rel: 'stylesheet', href: 'css/original/themify-icons.css' },
 			// Google fonts
 			{
 				rel: 'stylesheet',
@@ -68,7 +70,7 @@ export default {
 			{ src: 'js/jquery/jquery.countdown.js' },
 			{ src: 'js/jquery/jquery.mousewheel.min.js' },
 			{ src: 'js/lightgallery-all.js' },
-			// { src: 'js/main.js' },
+			{ src: 'js/wow.min.js' },
 			{ src: 'js/jnoty.js' },
 			{ src: 'js/maps.js' },
 			{ src: 'js/sidebar.js' },
@@ -76,7 +78,10 @@ export default {
 			{ src: 'js/html5shiv.min.js' },
 			{ src: 'js/ie-emulation-modes-warning.js' },
 			{ src: 'js/ie8-responsive-file-warning.js' },
-			{ src: 'js/ie10-viewport-bug-workaround.js' }
+			{ src: 'js/ie10-viewport-bug-workaround.js' },
+
+			{ src: 'js/jquery.counterup.min.js' },
+			{ src: 'js/waypoints.js' }
 		]
 	},
 	/*

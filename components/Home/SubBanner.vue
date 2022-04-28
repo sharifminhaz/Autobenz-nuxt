@@ -3,9 +3,7 @@
   <div class="sub-banner overlay">
     <div class="container breadcrumb-area">
       <div class="breadcrumb-areas">
-        <Transition mode="out-in">
-          <p>Satisfied or Refunded</p>
-        </Transition>
+        <Counter> </Counter>
       </div>
     </div>
   </div>
@@ -13,7 +11,12 @@
 </template>
 
 <script>
-export default {};
+import Counter from "~/components/Home/Counter";
+export default {
+  components: {
+    Counter,
+  },
+};
 </script>
 
 <style>
