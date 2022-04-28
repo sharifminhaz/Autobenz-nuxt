@@ -1,4 +1,5 @@
 <template>
+  <!-- Featured car start -->
   <div class="featured-car content-area">
     <div class="container">
       <div class="row">
@@ -8,30 +9,12 @@
             <div class="left">
               <div class="drive_item">
                 <div class="right">
-                  <div class="dropdown bootstrap-select search-fields">
-                    <select
-                      class="selectpicker search-fields"
-                      name="select-make"
-                    >
-                      <option>Newest First</option>
-                      <option>Oldest First</option>
-                      <option>Price High to Low</option>
-                      <option>Price: Low to High</option>
-                    </select>
-                    <div class="dropdown-menu">
-                      <div
-                        class="inner show"
-                        role="listbox"
-                        id="bs-select-1"
-                        tabindex="-1"
-                      >
-                        <ul
-                          class="dropdown-menu inner show"
-                          role="presentation"
-                        ></ul>
-                      </div>
-                    </div>
-                  </div>
+                  <select class="selectpicker search-fields" name="select-make">
+                    <option>Newest First</option>
+                    <option>Oldest First</option>
+                    <option>Price High to Low</option>
+                    <option>Price: Low to High</option>
+                  </select>
                 </div>
                 <div class="left">
                   <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -1191,112 +1174,55 @@
               <h3 class="sidebar-title">Search Cars</h3>
               <form method="GET">
                 <div class="form-group">
-                  <div class="dropdown bootstrap-select search-fields">
-                    <select
-                      class="selectpicker search-fields"
-                      name="select-make"
-                    >
-                      <option>Select Make</option>
-                      <option>BMW</option>
-                      <option>Honda</option>
-                      <option>Lamborghini</option>
-                      <option>Sports Car</option>
-                    </select>
-
-                    <div class="dropdown-menu">
-                      <div
-                        class="inner show"
-                        role="listbox"
-                        id="bs-select-2"
-                        tabindex="-1"
-                      >
-                        <ul
-                          class="dropdown-menu inner show"
-                          role="presentation"
-                        ></ul>
-                      </div>
-                    </div>
-                  </div>
+                  <select class="selectpicker search-fields" name="select-make">
+                    <option>Select Make</option>
+                    <option>BMW</option>
+                    <option>Honda</option>
+                    <option>Lamborghini</option>
+                    <option>Sports Car</option>
+                  </select>
                 </div>
                 <div class="form-group">
-                  <div class="dropdown bootstrap-select search-fields">
-                    <select
-                      class="selectpicker search-fields"
-                      name="select-brand"
-                    >
-                      <option>Select Model</option>
-                      <option>Audi</option>
-                      <option>BMW</option>
-                      <option>Honda</option>
-                      <option>Nissan</option>
-                    </select>
-                    <div class="dropdown-menu">
-                      <div
-                        class="inner show"
-                        role="listbox"
-                        id="bs-select-4"
-                        tabindex="-1"
-                      >
-                        <ul
-                          class="dropdown-menu inner show"
-                          role="presentation"
-                        ></ul>
-                      </div>
-                    </div>
-                  </div>
+                  <select
+                    class="selectpicker search-fields"
+                    name="select-brand"
+                  >
+                    <option>Select Model</option>
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>Honda</option>
+                    <option>Nissan</option>
+                  </select>
                 </div>
                 <div class="form-group">
-                  <div class="dropdown bootstrap-select search-fields">
-                    <select
-                      class="selectpicker search-fields"
-                      name="select-type"
-                    >
-                      <option>Select Transmission</option>
-                      <option>Automatic</option>
-                      <option>Manual</option>
-                      <option>Triptronic</option>
-                    </select>
-                    <div class="dropdown-menu">
-                      <div
-                        class="inner show"
-                        role="listbox"
-                        id="bs-select-5"
-                        tabindex="-1"
-                      >
-                        <ul
-                          class="dropdown-menu inner show"
-                          role="presentation"
-                        ></ul>
-                      </div>
-                    </div>
-                  </div>
+                  <select
+                    class="selectpicker search-fields"
+                    name="select-location"
+                  >
+                    <option>Select Fuel type</option>
+                    <option>Diesel</option>
+                    <option>Petrol</option>
+                    <option>Electric</option>
+                    <option>Gas</option>
+                    <option>Hybrid</option>
+                  </select>
                 </div>
                 <div class="form-group">
-                  <div class="dropdown bootstrap-select search-fields">
-                    <select
-                      class="selectpicker search-fields"
-                      name="select-year"
-                    >
-                      <option>Select Year</option>
-                      <option>2018</option>
-                      <option>2019</option>
-                      <option>2020</option>
-                      <option>2021</option>
-                    </select>
-                    <div class="dropdown-menu">
-                      <div
-                        class="inner show"
-                        role="listbox"
-                        id="bs-select-6"
-                        tabindex="-1"
-                      >
-                        <ul
-                          class="dropdown-menu inner show"
-                          role="presentation"
-                        ></ul>
-                      </div>
-                    </div>
-                  </div>
+                  <select class="selectpicker search-fields" name="select-type">
+                    <option>Select Transmission</option>
+                    <option>Automatic</option>
+                    <option>Manual</option>
+                    <option>Triptronic</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="selectpicker search-fields" name="select-year">
+                    <option>Select Year</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                  </select>
                 </div>
                 <div class="range-slider clearfix">
                   <label>Price</label>
@@ -1306,44 +1232,9 @@
                     data-min-name="min_price"
                     data-max-name="max_price"
                     data-unit="CHF"
-                    class="
-                      range-slider-ui
-                      ui-slider
-                      ui-slider-horizontal
-                      ui-widget
-                      ui-widget-content
-                      ui-corner-all
-                    "
+                    class="range-slider-ui ui-slider"
                     aria-disabled="false"
-                  >
-                    <span class="min-value">0 CHF</span>
-                    <span class="max-value">379000 CHF</span
-                    ><input
-                      class="current-min"
-                      type="hidden"
-                      name="min_price"
-                      value="0"
-                    /><input
-                      class="current-max"
-                      type="hidden"
-                      name="max_price"
-                      value="379000"
-                    />
-                    <div
-                      class="ui-slider-range ui-widget-header ui-corner-all"
-                      style="left: 0%; width: 100%"
-                    ></div>
-                    <a
-                      class="ui-slider-handle ui-state-default ui-corner-all"
-                      href="#"
-                      style="left: 0%"
-                    ></a
-                    ><a
-                      class="ui-slider-handle ui-state-default ui-corner-all"
-                      href="#"
-                      style="left: 100%"
-                    ></a>
-                  </div>
+                  ></div>
                   <div class="clearfix"></div>
                 </div>
                 <div class="form-group mb-0">
@@ -1527,6 +1418,7 @@
       </div>
     </div>
   </div>
+  <!-- Featured car end -->
 </template>
 
 <script>

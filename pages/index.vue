@@ -3,7 +3,7 @@
     <Preloader />
     <TopHeader />
     <Header />
-    <Slider />
+    <SubBanner />
     <Welcome />
     <Footer />
   </div>
@@ -13,7 +13,7 @@
 import Preloader from "~/components/Page/Preloader";
 import TopHeader from "~/components/Home/TopHeader";
 import Header from "~/components/Home/Header";
-import Slider from "~/components/Home/Slider";
+import SubBanner from "~/components/Home/SubBanner";
 import Welcome from "~/components/Home/Welcome";
 import About from "~/components/Home/About";
 import Service from "~/components/Home/Service";
@@ -39,10 +39,11 @@ export default {
     Service,
     About,
     Welcome,
-    Slider,
+    // Slider,
     Header,
     TopHeader,
     Preloader,
+    SubBanner,
   },
   head() {
     return {
@@ -97,57 +98,6 @@ export default {
       var headerHeight = parseInt($(".main-header").height(), 10);
       $(".dashboard").css("top", headerHeight);
     }
-
-    //range slider
-    $(".range-slider-ui").each(function () {
-      var minRangeValue = $(this).attr("data-min");
-      var maxRangeValue = $(this).attr("data-max");
-      var minName = $(this).attr("data-min-name");
-      var maxName = $(this).attr("data-max-name");
-      var unit = $(this).attr("data-unit");
-
-      $(this).append(
-        "" +
-          "<span class='min-value'></span> " +
-          "<span class='max-value'></span>" +
-          "<input class='current-min' type='hidden' name='" +
-          minName +
-          "'>" +
-          "<input class='current-max' type='hidden' name='" +
-          maxName +
-          "'>"
-      );
-      $(this).slider({
-        range: true,
-        min: minRangeValue,
-        max: maxRangeValue,
-        values: [minRangeValue, maxRangeValue],
-        slide: function (event, ui) {
-          event = event;
-          var currentMin = parseInt(ui.values[0], 10);
-          var currentMax = parseInt(ui.values[1], 10);
-          $(this)
-            .children(".min-value")
-            .text(currentMin + " " + unit);
-          $(this)
-            .children(".max-value")
-            .text(currentMax + " " + unit);
-          $(this).children(".current-min").val(currentMin);
-          $(this).children(".current-max").val(currentMax);
-        },
-      });
-
-      var currentMin = parseInt($(this).slider("values", 0), 10);
-      var currentMax = parseInt($(this).slider("values", 1), 10);
-      $(this)
-        .children(".min-value")
-        .text(currentMin + " " + unit);
-      $(this)
-        .children(".max-value")
-        .text(currentMax + " " + unit);
-      $(this).children(".current-min").val(currentMin);
-      $(this).children(".current-max").val(currentMax);
-    });
   },
 };
 </script>
