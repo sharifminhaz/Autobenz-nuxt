@@ -96,22 +96,7 @@
                   style="width: 44px; margin-bottom: 4px"
                 />
               </button>
-              <select
-                id="languages"
-                style="
-                  color: #c1c5cc !important;
-                  font-size: 16px !important;
-                  background-color: #020d25;
-                  text-transform: uppercase;
-                  font-weight: 400;
-                  line-height: 50px;
-                  max-height: 25px;
-                  box-shadow: 0px 0px 0px 1px rgb(2 13 38);
-                  margin-left: 12px;
-                  margin-bottom: 2px;
-                  width: 44px;
-                "
-              >
+              <select id="languages" class="trans">
                 <option value="FR" selected="">FR</option>
                 <option value="DE">DE</option>
                 <option value="IT">IT</option>
@@ -180,7 +165,7 @@ export default {
 .navbar {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: flex-start;
   padding-top: 0.5rem;
@@ -207,5 +192,19 @@ export default {
   font-size: 13px;
   letter-spacing: 1px;
   font-family: "Barlow", sans-serif;
+}
+
+.trans {
+  color: #c1c5cc !important;
+  font-size: 16px !important;
+  background-color: #020d25;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 50px;
+  max-height: 25px;
+  box-shadow: 0px 0px 0px 1px rgb(2 13 38);
+  margin-left: 12px;
+  margin-bottom: 2px;
+  width: 44px;
 }
 </style>
