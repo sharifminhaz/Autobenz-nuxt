@@ -81,7 +81,9 @@ export default {
 			{ src: 'js/ie10-viewport-bug-workaround.js' },
 
 			{ src: 'js/jquery.counterup.min.js' },
-			{ src: 'js/waypoints.js' }
+			{ src: 'js/waypoints.js' },
+			{ src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCtMppSKGQ-L-nnZFMFJNwwzB4iDjXLcZs' },
+			{ src: 'js/mapcode.js' }
 		]
 	},
 	/*
