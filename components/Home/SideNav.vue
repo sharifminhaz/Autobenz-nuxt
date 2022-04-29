@@ -12,12 +12,12 @@
       <div class="sidebar-navigation">
         <h3 class="heading">AUTO<span>BENZ</span></h3>
         <ul class="menu-list">
-          <li><a href="index.html" class="pt0 active">Home</a></li>
-          <li><a href="pricing-tables.html">Pricing</a></li>
+          <li><a href="/" class="pt0 active">Home</a></li>
+          <li><a href="/pricing">Pricing</a></li>
           <li><a href="add-item.html">Add vehicle</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
           <li>
-            <a href="login.html" class="nav-link h-icon">
+            <a href="/login" class="nav-link h-icon">
               <i class="flaticon-logout"></i>
             </a>
           </li>

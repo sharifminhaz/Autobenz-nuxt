@@ -3,7 +3,7 @@
   <header class="main-header sticky-header header-with-top">
     <div class="container contained">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand company-logo" href="index.html">
+        <a class="navbar-brand company-logo" href="/">
           <img src="img/logos/ab.png" alt="logo" />
         </a>
         <button
@@ -31,7 +31,7 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="index.html"
+                href="/"
                 id="navbarDropdownMenuLink"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -43,7 +43,7 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="pricing-tables.html"
+                href="/pricing"
                 id="navbarDropdownMenuLink4"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -55,7 +55,7 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="login.html"
+                href="/login"
                 id="dropdown01"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -64,11 +64,11 @@
               >
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
-            <form action="index.html#" class="search-boxs">
+            <form action="/#" class="search-boxs">
               <input
                 class="hsearch"
                 type="search"

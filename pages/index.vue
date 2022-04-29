@@ -16,7 +16,7 @@ import Header from "~/components/Home/Header";
 import SubBanner from "~/components/Home/SubBanner";
 import Welcome from "~/components/Home/Welcome";
 import About from "~/components/Home/About";
-import Service from "~/components/Home/Service";
+import Terms from "~/components/Page/Terms";
 import Counter from "~/components/Home/Counter";
 import Team from "~/components/Home/Team";
 import Project from "~/components/Home/Project";
@@ -36,7 +36,7 @@ export default {
     Project,
     Team,
     Counter,
-    Service,
+    Terms,
     About,
     Welcome,
     // Slider,

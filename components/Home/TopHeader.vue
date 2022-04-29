@@ -16,12 +16,12 @@
         <div class="col-lg-6 col-md-4 col-sm-5 col-5">
           <ul class="top-social-media pull-right">
             <li>
-              <a href="login.html" class="sign-in"
+              <a href="/login" class="sign-in"
                 ><i class="fa fa-sign-in"></i> Login</a
               >
             </li>
             <li>
-              <a href="signup.html" class="sign-in"
+              <a href="/Signup" class="sign-in"
                 ><i class="fa fa-user"></i> Register</a
               >
             </li>

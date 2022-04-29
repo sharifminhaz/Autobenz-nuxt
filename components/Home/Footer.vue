@@ -25,13 +25,13 @@
             <h4>PAGES</h4>
             <ul class="links">
               <li>
-                <a href="legal-notice.html">Legal Notice</a>
+                <a href="/Legal">Legal Notice</a>
               </li>
               <li>
-                <a href="#">Terms of use</a>
+                <a href="/Terms">Terms of use</a>
               </li>
               <li>
-                <a href="pricing-tables.html">Pricing</a>
+                <a href="/pricing">Pricing</a>
               </li>
             </ul>
           </div>
@@ -103,7 +103,7 @@
             </p>
           </div>
           <div class="col-lg-4 sub-footer-cards">
-            <a href="pricing-tables.html"
+            <a href="/pricing"
               ><img
                 src="https://foxnfox.ch/includes/img/payment.png"
                 alt="pricing"

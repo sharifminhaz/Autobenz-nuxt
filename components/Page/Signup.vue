@@ -9,7 +9,7 @@
         </div>
         <div class="col-lg-6 align-self-center pad-0 form-section">
           <div class="form-inner">
-            <a href="index.html" class="logo">
+            <a href="/" class="logo">
               <img src="img/logos/black-logo.png" alt="logo" />
             </a>
             <h3>CREATE YOUR ACCOUNT IN 1 MINUTE</h3>
