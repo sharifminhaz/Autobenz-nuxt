@@ -16,25 +16,33 @@ export default {
   components: {
     Counter,
   },
+  mounted() {
+    $(document).ready(function () {
+      function animate() {
+        $("#picOne").fadeIn(1000).delay(3000).fadeOut(1000);
+        $("#picTwo").delay(5000).fadeIn(1000).delay(3000).fadeOut(1000);
+      }
+
+      animate();
+      setInterval(animate, 10000);
+    });
+  },
 };
 </script>
 
 <style>
-/*
-  Enter and leave animations can use different
-  durations and timing functions.
-*/
-.slide-fade-enter-active {
-  transition: all 0.3s ease-out;
+#picOne,
+#picTwo {
+  display: none;
+  width: 2em;
+  height: 2em;
+  margin: 1em;
 }
 
-.slide-fade-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+#picOne {
+  background: red;
 }
-
-.slide-fade-enter-from,
-.slide-fade-leave-to {
-  transform: translateX(20px);
-  opacity: 0;
+#picTwo {
+  background: green;
 }
 </style>

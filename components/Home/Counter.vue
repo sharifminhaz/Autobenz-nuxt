@@ -1,7 +1,7 @@
 <template>
   <div class="counter-area fix area-padding">
     <div class="row">
-      <div class="col-sm-6 col-sm-6 col-xs-12">
+      <div class="col-sm-6 col-sm-6 col-xs-12 col-lg-6">
         <div class="fun-text-all">
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="fun_text wow fadeInUp" data-wow-delay="0.1s">
@@ -35,6 +35,14 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-6 col-sm-6 col-xs-12 col-lg-6">
+        <h1>
+          <div id="EN">Satisfied or refunded</div>
+          <div id="FR">Satisfait ou remboursé</div>
+          <div id="DE">Zufrieden oder zurückerstattet</div>
+          <div id="IT">Soddisfatti o rimborsati</div>
+        </h1>
+      </div>
     </div>
   </div>
 </template>
@@ -57,7 +65,24 @@ export default {
         time: 2000, // the speed time in ms
       });
     });
+    //Text
+    $(document).ready(function () {
+      var $elements = $("#EN, #FR, #DE, #IT");
+
+      function anim_loop(index) {
+        $elements.eq(index).fadeIn(1000, function () {
+          var $self = $(this);
+          setTimeout(function () {
+            $self.fadeOut(1000);
+            anim_loop((index + 1) % $elements.length);
+          }, 3000);
+        });
+      }
+
+      anim_loop(0); // start with the first element
+    });
   },
+
   methods: {
     numberWithCommas(x) {
       return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -67,6 +92,30 @@ export default {
 </script>
 
 <style scoped>
+#EN,
+#FR,
+#DE,
+#IT {
+  display: none;
+  width: 2em;
+  height: 2em;
+  margin: 1em;
+  clear: both;
+  white-space: nowrap;
+}
+
+#EN {
+  background: red;
+}
+#FR {
+  background: green;
+}
+#DE {
+  background: rgb(204, 225, 9);
+}
+#FR {
+  background: rgb(11, 63, 218);
+}
 @media (min-width: 992px) {
   .container {
     width: 970px;
