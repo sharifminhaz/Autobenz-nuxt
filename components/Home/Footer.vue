@@ -57,13 +57,13 @@
             <h4>MY ACCOUNT</h4>
             <ul class="links">
               <li>
-                <a href="profile.html">My Account</a>
+                <a href="/profile">My Account</a>
               </li>
               <li>
-                <a href="profile.html">Order History</a>
+                <a href="/profile">Order History</a>
               </li>
               <li>
-                <a href="profile.html">Wish List</a>
+                <a href="/profile">Wish List</a>
               </li>
             </ul>
           </div>

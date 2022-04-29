@@ -16,7 +16,7 @@
         </button>
         <button
           class="navbar-toggler"
-          onclick="window.location.href='profile.html'"
+          onclick="window.location.href='/profile'"
           type="button"
           id="user"
           style="margin-left: 12px"
