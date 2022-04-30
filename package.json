@@ -15,7 +15,9 @@
     "jquery-waypoints": "^2.0.5",
     "nuxt": "^2.0.0",
     "vue": "^2.0.8",
+    "vue-select": "^3.18.3",
     "vue-server-renderer": "^2.6.12",
+    "vue-step-wizard": "^0.1.17",
     "vue-template-compiler": "^2.6.12"
   },
   "devDependencies": {

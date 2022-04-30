@@ -1170,475 +1170,493 @@
               >
                 <div class="col-lg-6 col-md-12"></div>
                 <div class="col-lg-8 col-md-6">
-                  <div class="form-wizard">
-                    <form action="" method="post" role="form">
-                      <div class="form-wizard-header">
-                        <p>Fill all form fields to go next step</p>
-                        <ul class="list-unstyled form-wizard-steps clearfix">
-                          <li class="active"><span>1</span></li>
-                          <li><span>2</span></li>
-                          <li><span>3</span></li>
-                          <li><span>4</span></li>
-                        </ul>
+                  <form-wizard>
+                    <tab-content
+                      title="Select Announcement Type"
+                      :selected="true"
+                    >
+                      <h4>Which item do you wish to add ?</h4>
+                      <div>Picked: {{ AnnouncementType }}</div>
+                      <div class="form-group">
+                        <div class="wizard-form-radio">
+                          <input
+                            name="radio-name"
+                            id="radio1"
+                            type="radio"
+                            value="Car"
+                            v-model="AnnouncementType"
+                          />
+                          <label for="radio1">Cars</label>
+                        </div>
+                        <div class="wizard-form-radio">
+                          <input
+                            name="radio-name"
+                            id="radio2"
+                            type="radio"
+                            value="Utility"
+                            v-model="AnnouncementType"
+                          />
+                          <label for="radio2">Utility</label>
+                        </div>
+                        <div class="wizard-form-radio">
+                          <input
+                            name="radio-name"
+                            id="radio3"
+                            type="radio"
+                            value="Bike"
+                            v-model="AnnouncementType"
+                          />
+                          <label for="radio2">Bikes</label>
+                        </div>
                       </div>
-                      <!-- select type form start -->
-                      <fieldset class="wizard-fieldset show">
-                        <h5>Select Announcements Type</h5>
-                        <div class="form-group">
-                          <div class="wizard-form-radio">
-                            <input name="radio-name" id="radio1" type="radio" />
-                            <label for="radio1">Cars</label>
-                          </div>
-                          <div class="wizard-form-radio">
-                            <input name="radio-name" id="radio2" type="radio" />
-                            <label for="radio2">Utility</label>
-                          </div>
-                          <div class="wizard-form-radio">
-                            <input name="radio-name" id="radio3" type="radio" />
-                            <label for="radio2">Bikes</label>
-                          </div>
-                        </div>
-                        <div class="form-group clearfix">
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-next-btn float-right"
-                            >Next</a
-                          >
-                        </div>
-                      </fieldset>
-                      <!-- select type form end -->
-                      <fieldset class="wizard-fieldset">
-                        <h5>Item Details</h5>
-                        <!-- Add item form start -->
-                        <div class="contact-form">
-                          <form
-                            id="contact_form"
-                            action="index.html"
-                            method="GET"
-                            enctype="multipart/form-data"
-                          >
-                            <div class="row mwm" style="width: 150%">
-                              <div class="col-md-12">
-                                <div class="form-group name">
-                                  <input
-                                    type="text"
-                                    name="fname"
-                                    class="form-control"
-                                    placeholder="Title"
-                                    aria-label="Title"
-                                  />
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group name">
-                                  <input
-                                    type="number"
-                                    name="lname"
-                                    class="form-control"
-                                    placeholder="Old price"
-                                    aria-label="New Price"
-                                  />
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group email">
-                                  <input
-                                    type="number"
-                                    name="email"
-                                    class="form-control"
-                                    placeholder="Old price"
-                                    aria-label="Old price"
-                                  />
-                                </div>
-                              </div>
-
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Select Make</option>
-                                    <option>BMW</option>
-                                    <option>Honda</option>
-                                    <option>Lamborghini</option>
-                                    <option>Sports Car</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Select Model</option>
-                                    <option>BMW</option>
-                                    <option>Honda</option>
-                                    <option>Lamborghini</option>
-                                    <option>Sports Car</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Year</option>
-                                    <option>2022</option>
-                                    <option>2021</option>
-                                    <option>2020</option>
-                                    <option>2019</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <input
-                                    type="number"
-                                    name="lname"
-                                    class="form-control"
-                                    placeholder="Mileage"
-                                    aria-label="Mileage"
-                                  />
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Expertise</option>
-                                    <option>YES</option>
-                                    <option>NO</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Body Type</option>
-                                    <option>Convertible</option>
-                                    <option>Sedan</option>
-                                    <option>SUV</option>
-                                    <option>Sports car</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Fuel Type</option>
-                                    <option>Gas</option>
-                                    <option>Petrol</option>
-                                    <option>Gasoline</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Transmission</option>
-                                    <option>Automatic</option>
-                                    <option>Manual</option>
-                                    <option>Triptronic</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Ext Color</option>
-                                    <option>Black</option>
-                                    <option>White</option>
-                                    <option>Blue</option>
-                                    <option>Red</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-3">
-                                <div class="form-group">
-                                  <select
-                                    class="selectpicker search-fields"
-                                    name="select-make"
-                                  >
-                                    <option>Int Color</option>
-                                    <option>Black</option>
-                                    <option>White</option>
-                                    <option>Blue</option>
-                                    <option>Red</option>
-                                  </select>
-                                </div>
-                              </div>
-                              <div class="col-md-12">
-                                <div class="form-group message">
-                                  <textarea
-                                    class="form-control"
-                                    name="message"
-                                    placeholder="Description..."
-                                    aria-label="Description"
-                                    style="height: 236px"
-                                  ></textarea>
-                                </div>
-                              </div>
-                            </div>
-                          </form>
-                        </div>
-                        <!-- Add item form end -->
-
-                        <div class="form-group clearfix">
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-previous-btn float-left"
-                            >Previous</a
-                          >
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-next-btn float-right"
-                            >Next</a
-                          >
-                        </div>
-                      </fieldset>
-                      <fieldset class="wizard-fieldset">
-                        <h5>Bank Information</h5>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            class="form-control wizard-required"
-                            id="bname"
-                          />
-                          <label for="bname" class="wizard-form-text-label"
-                            >Bank Name*</label
-                          >
-                          <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            class="form-control wizard-required"
-                            id="brname"
-                          />
-                          <label for="brname" class="wizard-form-text-label"
-                            >Branch Name*</label
-                          >
-                          <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            class="form-control wizard-required"
-                            id="acname"
-                          />
-                          <label for="acname" class="wizard-form-text-label"
-                            >Account Name*</label
-                          >
-                          <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            class="form-control wizard-required"
-                            id="acon"
-                          />
-                          <label for="acon" class="wizard-form-text-label"
-                            >Account Number*</label
-                          >
-                          <div class="wizard-form-error"></div>
-                        </div>
-                        <div class="form-group clearfix">
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-previous-btn float-left"
-                            >Previous</a
-                          >
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-next-btn float-right"
-                            >Next</a
-                          >
-                        </div>
-                      </fieldset>
-                      <fieldset class="wizard-fieldset">
-                        <h5>Payment Information</h5>
-                        <div class="form-group">
-                          Payment Type
-                          <div class="wizard-form-radio">
-                            <input
-                              name="radio-name"
-                              id="mastercard"
-                              type="radio"
-                            />
-                            <label for="mastercard">Master Card</label>
-                          </div>
-                          <div class="wizard-form-radio">
-                            <input
-                              name="radio-name"
-                              id="visacard"
-                              type="radio"
-                            />
-                            <label for="visacard">Visa Card</label>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <input
-                            type="text"
-                            class="form-control wizard-required"
-                            id="honame"
-                          />
-                          <label for="honame" class="wizard-form-text-label"
-                            >Holder Name*</label
-                          >
-                          <div class="wizard-form-error"></div>
-                        </div>
+                    </tab-content>
+                    <tab-content title="Item Details">
+                      <h5>Item Details</h5>
+                      <!-- Add item form start -->
+                      <div class="contact-form">
                         <div class="row">
-                          <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="form-group">
+                          <div class="col-md-12">
+                            <div class="form-group name">
                               <input
                                 type="text"
-                                class="form-control wizard-required"
-                                id="cardname"
+                                name="fname"
+                                class="form-control"
+                                placeholder="Title"
+                                aria-label="Title"
                               />
-                              <label
-                                for="cardname"
-                                class="wizard-form-text-label"
-                                >Card Number*</label
-                              >
-                              <div class="wizard-form-error"></div>
                             </div>
                           </div>
-                          <div class="col-lg-6 col-md-6 col-sm-6">
+                          <div class="col-md-6">
+                            <div class="form-group name">
+                              <input
+                                type="number"
+                                name="lname"
+                                class="form-control"
+                                placeholder="Old price"
+                                aria-label="New Price"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group email">
+                              <input
+                                type="number"
+                                name="email"
+                                class="form-control"
+                                placeholder="Old price"
+                                aria-label="Old price"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <v-select :options="options"></v-select>
+
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-1"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <v-select
+                                v-model="options"
+                                :options="options"
+                              ></v-select>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Year</option>
+                                  <option>2022</option>
+                                  <option>2021</option>
+                                  <option>2020</option>
+                                  <option>2019</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-3"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Year"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Year
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-3"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
                             <div class="form-group">
                               <input
-                                type="text"
-                                class="form-control wizard-required"
-                                id="cvc"
+                                type="number"
+                                name="lname"
+                                class="form-control"
+                                placeholder="Mileage"
+                                aria-label="Mileage"
                               />
-                              <label for="cvc" class="wizard-form-text-label"
-                                >CVC*</label
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
                               >
-                              <div class="wizard-form-error"></div>
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Expertise</option>
+                                  <option>YES</option>
+                                  <option>NO</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-4"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Expertise"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Expertise
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-4"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Body Type</option>
+                                  <option>Convertible</option>
+                                  <option>Sedan</option>
+                                  <option>SUV</option>
+                                  <option>Sports car</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-5"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Body Type"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Body Type
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-5"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Fuel Type</option>
+                                  <option>Gas</option>
+                                  <option>Petrol</option>
+                                  <option>Gasoline</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-6"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Fuel Type"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Fuel Type
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-6"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Transmission</option>
+                                  <option>Automatic</option>
+                                  <option>Manual</option>
+                                  <option>Triptronic</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-7"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Transmission"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Transmission
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-7"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Ext Color</option>
+                                  <option>Black</option>
+                                  <option>White</option>
+                                  <option>Blue</option>
+                                  <option>Red</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-8"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Ext Color"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Ext Color
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-8"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <div
+                                class="dropdown bootstrap-select search-fields"
+                              >
+                                <select
+                                  class="selectpicker search-fields"
+                                  name="select-make"
+                                >
+                                  <option>Int Color</option>
+                                  <option>Black</option>
+                                  <option>White</option>
+                                  <option>Blue</option>
+                                  <option>Red</option></select
+                                ><button
+                                  type="button"
+                                  tabindex="-1"
+                                  class="btn dropdown-toggle btn-light"
+                                  data-bs-toggle="dropdown"
+                                  role="combobox"
+                                  aria-owns="bs-select-9"
+                                  aria-haspopup="listbox"
+                                  aria-expanded="false"
+                                  title="Int Color"
+                                >
+                                  <div class="filter-option">
+                                    <div class="filter-option-inner">
+                                      <div class="filter-option-inner-inner">
+                                        Int Color
+                                      </div>
+                                    </div>
+                                  </div>
+                                </button>
+                                <div class="dropdown-menu">
+                                  <div
+                                    class="inner show"
+                                    role="listbox"
+                                    id="bs-select-9"
+                                    tabindex="-1"
+                                  >
+                                    <ul
+                                      class="dropdown-menu inner show"
+                                      role="presentation"
+                                    ></ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group message">
+                              <textarea
+                                class="form-control"
+                                name="message"
+                                placeholder="Description..."
+                                aria-label="Description"
+                                style="height: 236px"
+                              ></textarea>
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col-12">Expiry Date</div>
-                          <div class="col-lg-4 col-md-4 col-sm-4">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option value="">Date</option>
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                                <option value="">7</option>
-                                <option value="">8</option>
-                                <option value="">9</option>
-                                <option value="">10</option>
-                                <option value="">11</option>
-                                <option value="">12</option>
-                                <option value="">13</option>
-                                <option value="">14</option>
-                                <option value="">15</option>
-                                <option value="">16</option>
-                                <option value="">17</option>
-                                <option value="">18</option>
-                                <option value="">19</option>
-                                <option value="">20</option>
-                                <option value="">21</option>
-                                <option value="">22</option>
-                                <option value="">23</option>
-                                <option value="">24</option>
-                                <option value="">25</option>
-                                <option value="">26</option>
-                                <option value="">27</option>
-                                <option value="">28</option>
-                                <option value="">29</option>
-                                <option value="">30</option>
-                                <option value="">31</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-4 col-sm-4">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option value="">Month</option>
-                                <option value="">jan</option>
-                                <option value="">Feb</option>
-                                <option value="">March</option>
-                                <option value="">April</option>
-                                <option value="">May</option>
-                                <option value="">June</option>
-                                <option value="">Jully</option>
-                                <option value="">August</option>
-                                <option value="">Sept</option>
-                                <option value="">Oct</option>
-                                <option value="">Nov</option>
-                                <option value="">Dec</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-4 col-sm-4">
-                            <div class="form-group">
-                              <select class="form-control">
-                                <option value="">Years</option>
-                                <option value="">2019</option>
-                                <option value="">2020</option>
-                                <option value="">2021</option>
-                                <option value="">2022</option>
-                                <option value="">2023</option>
-                                <option value="">2024</option>
-                                <option value="">2025</option>
-                                <option value="">2026</option>
-                                <option value="">2027</option>
-                                <option value="">2028</option>
-                                <option value="">2029</option>
-                                <option value="">2030</option>
-                                <option value="">2031</option>
-                                <option value="">2032</option>
-                                <option value="">2033</option>
-                                <option value="">2034</option>
-                                <option value="">2035</option>
-                                <option value="">2036</option>
-                                <option value="">2037</option>
-                                <option value="">2038</option>
-                                <option value="">2039</option>
-                                <option value="">2040</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-group clearfix">
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-previous-btn float-left"
-                            >Previous</a
-                          >
-                          <a
-                            href="javascript:;"
-                            class="form-wizard-submit float-right"
-                            >Submit</a
-                          >
-                        </div>
-                      </fieldset>
-                    </form>
-                  </div>
+                      </div>
+                    </tab-content>
+                    <tab-content title="Finishing Up">
+                      <select id="dob">
+                        <option value="0">Year:</option>
+                        <option
+                          v-for="year in years"
+                          :value="year"
+                          :key="year.id"
+                        >
+                          {{ year }}
+                        </option>
+                      </select>
+                    </tab-content>
+                  </form-wizard>
                 </div>
               </div>
               <div
@@ -1664,10 +1682,56 @@
 </template>
 
 <script>
+import { FormWizard, TabContent } from "vue-step-wizard";
+import "vue-step-wizard/dist/vue-step-wizard.css";
+import vSelect from "vue-select";
+import "vue-select/dist/vue-select.css";
+
 export default {
   name: "Profile",
+  components: {
+    FormWizard,
+    TabContent,
+    vSelect,
+  },
+  data() {
+    return {
+      options: ["A", "B", "C"],
+      AnnouncementType: "",
+      AnnouncementDetails: {
+        title: "",
+        oldPrice: null,
+        newPrice: null,
+        Make: [],
+        Model: [],
+        Year: [],
+        Mileage: null,
+        Expertise: "",
+        BodyType: [],
+        fuelType: [],
+        transmission: [],
+        extColor: [],
+        intColor: [],
+        description: "",
+      },
+    };
+  },
+  created() {},
+  computed: {
+    years() {
+      const year = new Date().getFullYear();
+      return Array.from(
+        { length: year - 1900 },
+        (value, index) => 1901 + index
+      );
+    },
+  },
+  methods: {},
 };
 </script>
 
 <style scoped>
+.step-header {
+  margin-bottom: 4px;
+}
 </style>
