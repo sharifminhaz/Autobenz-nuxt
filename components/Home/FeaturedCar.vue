@@ -63,7 +63,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -159,7 +159,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>VW, GOLF 6</h4>
                       </a>
                     </div>
@@ -168,7 +168,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -183,7 +183,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -279,7 +279,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>VW, GOLF 6</h4>
                       </a>
                     </div>
@@ -288,7 +288,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -303,7 +303,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -399,7 +399,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>VW, GOLF 6</h4>
                       </a>
                     </div>
@@ -408,7 +408,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -423,7 +423,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -519,7 +519,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>VW, GOLF 6</h4>
                       </a>
                     </div>
@@ -528,7 +528,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -543,7 +543,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -639,7 +639,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>VW, GOLF 6</h4>
                       </a>
                     </div>
@@ -648,7 +648,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -663,7 +663,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -759,7 +759,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>Audi A4</h4>
                       </a>
                     </div>
@@ -768,7 +768,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -783,7 +783,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -879,7 +879,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>Audi A4</h4>
                       </a>
                     </div>
@@ -888,7 +888,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -903,7 +903,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -999,7 +999,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>Audi A4</h4>
                       </a>
                     </div>
@@ -1008,7 +1008,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->
@@ -1023,7 +1023,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="car-box-3">
                 <div class="car-thumbnail">
-                  <a href="car-details.html" class="car-img">
+                  <a href="/item-details" class="car-img">
                     <div class="tag-2">
                       <div class="del-price">
                         <del>CHF 100'000</del><span></span>
@@ -1119,7 +1119,7 @@
                 <div class="car-des-text_body">
                   <div class="row">
                     <div class="col">
-                      <a href="car-details.html">
+                      <a href="/item-details">
                         <h4>Audi A4</h4>
                       </a>
                     </div>
@@ -1128,7 +1128,7 @@
                     </div>
                   </div>
                   <!-- <div class="location">
-                                    <a href="car-details.html">
+                                    <a href="/item-details">
                                         <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
                                     </a>
                                 </div> -->

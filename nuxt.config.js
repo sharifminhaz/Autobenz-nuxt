@@ -28,6 +28,7 @@ export default {
 			{ rel: 'stylesheet', href: 'css/lightbox.min.css' },
 			{ rel: 'stylesheet', href: 'css/jnoty.css' },
 			{ rel: 'stylesheet', href: 'css/slick.css' },
+			{ rel: 'stylesheet', href: 'css/slick-theme.css' },
 
 			// Custom stylesheet
 
@@ -40,7 +41,6 @@ export default {
 			{ rel: 'stylesheet', href: 'css/skins/midnight-blue.css' },
 			{ rel: 'stylesheet', href: 'css/ie10-viewport-bug-workaround.css' },
 			{ rel: 'stylesheet', href: 'css/initial.css' },
-			{ rel: 'stylesheet', href: 'css/original/themify-icons.css' },
 			{ rel: 'stylesheet', href: 'css/original/themify-icons.css' },
 			// Google fonts
 			{
@@ -69,6 +69,7 @@ export default {
 			{ src: 'js/jquery/jquery.magnific-popup.min.js' },
 			{ src: 'js/jquery/jquery.countdown.js' },
 			{ src: 'js/jquery/jquery.mousewheel.min.js' },
+			{ src: 'js/jquery/jquery.nicescroll.min.js' },
 			{ src: 'js/lightgallery-all.js' },
 			{ src: 'js/wow.min.js' },
 			{ src: 'js/jnoty.js' },
@@ -79,6 +80,7 @@ export default {
 			{ src: 'js/ie-emulation-modes-warning.js' },
 			{ src: 'js/ie8-responsive-file-warning.js' },
 			{ src: 'js/ie10-viewport-bug-workaround.js' },
+			{ src: 'js/vendor/theme-dist.js' },
 
 			{ src: 'js/jquery.counterup.min.js' },
 			{ src: 'js/waypoints.js' },

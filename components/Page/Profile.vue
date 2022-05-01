@@ -231,7 +231,7 @@
                   <div class="row g-0">
                     <div class="col-lg-4 col-md-5">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-3">
                             <div class="del-price">
                               <del>CHF 100'000</del><span></span>
@@ -328,10 +328,10 @@
                     <div class="col-lg-8 col-md-7 align-self-center">
                       <div class="detail">
                         <h3 class="title">
-                          <a href="car-details.html">Hyundai Santa</a>
+                          <a href="/item-details">Hyundai Santa</a>
                         </h3>
                         <!-- <h5 class="location">
-                                                <a href="car-details.html">
+                                                <a href="/item-details">
                                                     <i class="flaticon-cash"></i>123 Kathal St. Tampa City,
                                                 </a>
                                             </h5> -->
@@ -352,7 +352,7 @@
                   <div class="row g-0">
                     <div class="col-lg-4 col-md-5">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-3">
                             <div class="del-price">
                               <del>CHF 100'000</del><span></span>
@@ -449,10 +449,10 @@
                     <div class="col-lg-8 col-md-7 align-self-center">
                       <div class="detail">
                         <h3 class="title">
-                          <a href="car-details.html">Hyundai Santa</a>
+                          <a href="/item-details">Hyundai Santa</a>
                         </h3>
                         <h5 class="location">
-                          <a href="car-details.html">
+                          <a href="/item-details">
                             <i class="flaticon-cash"></i>123 Kathal St. Tampa
                             City,
                           </a>
@@ -481,7 +481,7 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="car-box-3">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-favs"><del>CHF 65'500</del></div>
                           <img
                             class="d-block w-100"
@@ -569,7 +569,7 @@
                       </div>
                       <div class="detail">
                         <h1 class="title">
-                          <a href="car-details.html">Hyundai Santa</a>
+                          <a href="/item-details">Hyundai Santa</a>
                         </h1>
 
                         <ul class="facilities-list clearfix">
@@ -588,7 +588,7 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="car-box-3">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-favs"><del>CHF 65'500</del></div>
                           <img
                             class="d-block w-100"
@@ -676,7 +676,7 @@
                       </div>
                       <div class="detail">
                         <h1 class="title">
-                          <a href="car-details.html">Toyota Prius</a>
+                          <a href="/item-details">Toyota Prius</a>
                         </h1>
 
                         <ul class="facilities-list clearfix">
@@ -695,7 +695,7 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="car-box-3">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-favs"><del>CHF 65'500</del></div>
                           <img
                             class="d-block w-100"
@@ -783,10 +783,10 @@
                       </div>
                       <div class="detail">
                         <h1 class="title">
-                          <a href="car-details.html">Toyota Prius specs</a>
+                          <a href="/item-details">Toyota Prius specs</a>
                         </h1>
                         <div class="location">
-                          <a href="car-details.html">
+                          <a href="/item-details">
                             <i class="flaticon-pin"></i>123 Kathal St. Tampa
                             City,
                           </a>
@@ -807,7 +807,7 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="car-box-3">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-favs"><del>CHF 65'500</del></div>
                           <img
                             class="d-block w-100"
@@ -895,10 +895,10 @@
                       </div>
                       <div class="detail">
                         <h1 class="title">
-                          <a href="car-details.html">Lexus GS F</a>
+                          <a href="/item-details">Lexus GS F</a>
                         </h1>
                         <div class="location">
-                          <a href="car-details.html">
+                          <a href="/item-details">
                             <i class="flaticon-pin"></i>123 Kathal St. Tampa
                             City,
                           </a>
@@ -919,7 +919,7 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="car-box-3">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-favs"><del>CHF 65'500</del></div>
                           <img
                             class="d-block w-100"
@@ -1007,7 +1007,7 @@
                       </div>
                       <div class="detail">
                         <h1 class="title">
-                          <a href="car-details.html">Audi Q7 2018</a>
+                          <a href="/item-details">Audi Q7 2018</a>
                         </h1>
 
                         <ul class="facilities-list clearfix">
@@ -1026,7 +1026,7 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="car-box-3">
                       <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="/item-details" class="car-img">
                           <div class="tag-favs"><del>CHF 65'500</del></div>
                           <img
                             class="d-block w-100"
@@ -1114,10 +1114,10 @@
                       </div>
                       <div class="detail">
                         <h1 class="title">
-                          <a href="car-details.html">2020 Ford Mustang</a>
+                          <a href="/item-details">2020 Ford Mustang</a>
                         </h1>
                         <div class="location">
-                          <a href="car-details.html">
+                          <a href="/item-details">
                             <i class="flaticon-pin"></i>123 Kathal St. Tampa
                             City,
                           </a>
